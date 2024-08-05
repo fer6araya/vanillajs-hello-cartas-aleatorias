@@ -6,3 +6,8 @@
 .valor {
   font-size: 120px;
 }
+
+.rotate-180 {
+  transform: rotate(180deg);
+  display: inline-block;
+}

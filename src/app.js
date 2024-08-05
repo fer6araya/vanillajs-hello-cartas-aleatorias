@@ -30,16 +30,7 @@ window.onload = function() {
   let selectedSuit = suits[suitsPicker];
   let selectedCardNumber = cardNumbers[cardNumberPicker];
 
-  document.getElementById("top-left-corner-suit").innerHTML =
-    '<h5 id="top-left-corner-suit" class="card-title pinta">' +
-    selectedSuit +
-    "</h5>";
-  document.getElementById("bottom-right-corner-suit").innerHTML =
-    '<h5 id="top-left-corner-suit" class="card-title pinta">' +
-    selectedSuit +
-    "</h5>";
-  document.getElementById("card-number").innerHTML =
-    '<p id="card-number" class="card-text valor text-center">' +
-    selectedCardNumber +
-    "</p>";
+  document.getElementById("top-left-corner-suit").innerHTML = selectedSuit;
+  document.getElementById("bottom-right-corner-suit").innerHTML = selectedSuit;
+  document.getElementById("card-number").innerHTML = selectedCardNumber;
 };
