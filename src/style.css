@@ -11,3 +11,19 @@
   transform: rotate(180deg);
   display: inline-block;
 }
+
+.spade {
+  color: black;
+}
+
+.club {
+  color: black;
+}
+
+.heart {
+  color: red;
+}
+
+.diamond {
+  color: red;
+}
